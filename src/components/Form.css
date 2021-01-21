@@ -1,0 +1,68 @@
+.feedback-input {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #664ee045;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+  border-radius: 30px;
+}
+
+.form {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 600px;
+  margin: 50px auto;
+  background: linear-gradient(
+      127deg,
+      rgba(95, 222, 139, 0.579),
+      rgba(0, 0, 255, 0) 70.71%
+    ),
+    linear-gradient(336deg, rgba(71, 3, 76, 0.476), rgba(0, 0, 255, 0) 70.71%);
+  padding: 30px;
+  border-radius: 70px;
+}
+.feedback-input:focus {
+  border: 2px solid #664ee045;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+  color: white;
+}
+
+[type="submit"] {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  background-color: rgba(61, 43, 67, 0.285);
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+  border-radius: 70px;
+}
+[type="submit"]:hover {
+  background-color: rgba(61, 43, 67, 0.024);
+}

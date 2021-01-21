@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+h3 {
+  color: white;
+  text-align: center;
+  background-color: pink;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  bottom: -40%;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav {
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  background-color: rgba(255, 192, 203, 0.096);
+  display: inline-flex;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text {
+  padding-top: 10px;
+  vertical-align: middle;
+  font-size: 25px;
+  color: white;
+  margin: 0;
+  width: 100%;
+  animation: marquee 10s linear infinite;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.news {
+  height: auto;
+  background: linear-gradient(
+      127deg,
+      rgba(95, 222, 139, 0.579),
+      rgba(0, 0, 255, 0) 70.71%
+    ),
+    linear-gradient(336deg, rgba(71, 3, 76, 0.476), rgba(0, 0, 255, 0) 70.71%);
+  padding: 10px 30px 10px 30px;
+  font-size: x-large;
+  color: white;
+  z-index: 1;
+  display: block;
+}
+
+/* animation */
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-image {
+    width: 414px;
+  }
+}
+
+@media only screen and (min-width: 5000px) {
+  .text {
+    font-size: 100px;
+  }
+}
+@media only screen and (min-width: 5000px) {
+  b {
+    font-size: 100px;
+  }
+}

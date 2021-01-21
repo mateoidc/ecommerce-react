@@ -1,0 +1,89 @@
+.img {
+  width: 350px;
+  height: 270px;
+  border-radius: 40px;
+  box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.531);
+}
+
+.container {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.child {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  margin: 10px auto;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color: #2c1a4e;
+  margin: 30px;
+}
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #2c1a4e;
+  margin: 10px;
+}
+
+.h4 {
+  font-size: 20px;
+  background: linear-gradient(
+      127deg,
+      rgba(87, 234, 109, 0.689),
+      rgba(0, 0, 255, 0) 70.71%
+    ),
+    linear-gradient(
+      336deg,
+      rgba(183, 88, 190, 0.476),
+      rgba(0, 0, 255, 0) 70.71%
+    );
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+}
+
+.h4:hover {
+  background-color: rgba(218, 160, 239, 0.483);
+}
+/* Bouncing Effect */
+
+img:hover {
+  animation: bounce 1s;
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+/* medias */
+
+@media only screen and (max-width: 600px) {
+  .img {
+    width: 350px;
+  }
+}

@@ -1,0 +1,51 @@
+img {
+  width: 330px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.container1 {
+  background: linear-gradient(
+      127deg,
+      rgb(42, 244, 113),
+      rgba(0, 0, 255, 0) 70.71%
+    ),
+    linear-gradient(336deg, rgba(71, 3, 76, 0.476), rgba(0, 0, 255, 0) 70.71%);
+  text-align: center;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.destination {
+  color: rgb(255, 255, 255);
+
+  font-size: 30px;
+}
+
+.button {
+  background-color: rgba(61, 43, 67, 0.285);
+  font-size: 24px;
+  border-radius: 30px;
+  padding: 3px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+h5 {
+  margin: 3px;
+  color: white;
+  font-size: larger;
+}
+
+.button:hover {
+  background-color: rgba(117, 96, 123, 0.285);
+}
+
+@media only screen and (max-width: 600px) {
+  .container1 {
+    position: relative;
+    left: 30px;
+  }
+}

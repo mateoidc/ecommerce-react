@@ -1,0 +1,23 @@
+.hero2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.552)),
+    url("https://img4.goodfon.com/wallpaper/nbig/7/1e/city-purple-purple-lights-light-and-magic-new-york-city-buil.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 70px;
+  position: relative;
+
+  text-shadow: 6px 6px rgba(224, 140, 229, 0.274);
+}
+
+.idk {
+  background-color: rgba(0, 0, 0, 0.449);
+  display: inline-block;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 50px;
+  font-size: 40px;
+}

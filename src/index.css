@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/3374208/pexels-photo-3374208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-image:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/258112/pexels-photo-258112.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+h1 {
+  font-size: 70px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  bottom: -30%;
+  text-shadow: 6px 6px rgba(224, 140, 229, 0.274);
+  margin-left: 92px;
+}
+
+button {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  font-size: 30px;
+  bottom: -32%;
+  background: linear-gradient(
+      127deg,
+      rgba(95, 222, 139, 0.579),
+      rgba(0, 0, 255, 0) 70.71%
+    ),
+    linear-gradient(336deg, rgba(71, 3, 76, 0.476), rgba(0, 0, 255, 0) 70.71%);
+  padding: 10px;
+  border-radius: 70px;
+  transition: 0.4 ease;
+  cursor: pointer;
+  margin-left: 100px;
+  border: 0;
+  width: 420px;
+}
+
+button:hover {
+  background-color: rgba(255, 192, 203, 0.401);
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-image {
+    height: 740px;
+    width: 390px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  button {
+    width: 220px;
+  }
+}
+
+@media only screen and (min-width: 5000px) {
+  .hero-image {
+    height: 2880px;
+    width: 5120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 5000px) {
+  h1 {
+    font-size: 300px;
+  }
+}
+
+@media only screen and (min-width: 5000px) {
+  button {
+    font-size: 200px;
+    width: 1870px;
+    border-radius: 130px;
+  }
+}
