@@ -4,7 +4,7 @@ import "../components/Form.css";
 class Form extends React.Component {
   render() {
     return (
-      <div className="App">
+      <div className="App" id="Form">
         <form>
           <h5 class="form">Get in Touch!</h5>
           <input

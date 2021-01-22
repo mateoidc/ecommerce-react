@@ -4,7 +4,7 @@ import "../components/TopDestinations.css";
 class TopDestinations extends React.Component {
   render() {
     return (
-      <div className="App">
+      <div className="App" id="TopDestinations">
         <div id="top-destinations" class="container">
           <h2>Top Destinations</h2>
 

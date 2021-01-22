@@ -29,7 +29,7 @@ h1 {
   margin-left: 92px;
 }
 
-button {
+.explore-button {
   color: white;
   font-family: "Montserrat", sans-serif;
   position: relative;
@@ -48,9 +48,10 @@ button {
   margin-left: 100px;
   border: 0;
   width: 420px;
+  text-align: center;
 }
 
-button:hover {
+.explore-button:hover {
   background-color: rgba(255, 192, 203, 0.401);
 }
 
@@ -71,7 +72,7 @@ button:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  button {
+  .explore-button {
     width: 220px;
   }
 }
@@ -93,7 +94,7 @@ button:hover {
 }
 
 @media only screen and (min-width: 5000px) {
-  button {
+  .explore-button {
     font-size: 200px;
     width: 1870px;
     border-radius: 130px;

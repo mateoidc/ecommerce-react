@@ -66,7 +66,7 @@ class Products extends Component {
             Filter by (Lowest to Highest)
           </button>
         </div>
-        <div className="products-container">
+        <div className="products-container" id="Products">
           {this.state.products.map((product) => {
             return (
               <div className="container1">

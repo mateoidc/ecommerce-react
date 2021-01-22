@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../components/Footer.css";
+import { Link } from "react-scroll";
 
 class Footer extends React.Component {
   render() {
@@ -15,10 +16,48 @@ class Footer extends React.Component {
           <div id="container">
             <div id="cont">
               <div class="footer_center">
-                <h3 className="h3footer">Stay & Vacay &copy;</h3>
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-google"></a>
+                {/* <h3 className="h3footer">Stay & Vacay &copy;</h3> */}
+
+                <div class="links">
+                  <Link
+                    activeClass="active"
+                    to="Landing"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1000}
+                    type="button"
+                    className="linkys"
+                  >
+                    Home
+                  </Link>
+                  <br></br>
+                  <Link
+                    activeClass="active"
+                    to="Products"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1000}
+                    type="button"
+                    className="linkys"
+                  >
+                    Products
+                  </Link>
+                  <br></br>
+                  <Link
+                    activeClass="active"
+                    to="Form"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1000}
+                    type="button"
+                    className="linkys"
+                  >
+                    Contact
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
