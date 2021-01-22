@@ -5,7 +5,7 @@ class TopDestinations extends React.Component {
   render() {
     return (
       <div className="App">
-        <div class="container">
+        <div id="top-destinations" class="container">
           <h2>Top Destinations</h2>
 
           <div class="child">
