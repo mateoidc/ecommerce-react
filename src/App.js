@@ -12,7 +12,9 @@ function App() {
       <div class="hero-image">
         <NavBar />
         <h1>Stay & Vacay</h1>
-        <button type="button">Explore</button>
+        <button className="hero-button" type="button">
+          Explore
+        </button>
       </div>
 
       <TopDestinations />

@@ -4,73 +4,85 @@
       "image": "../assets/medellin_1.jpg",
       "destination": "Medellin, Colombia",
       "price": "$1000",
-      "description": "All inclusive flight+hotel"
+      "description": "All inclusive flight+hotel",
+      "continent": "America"
     },
     {
       "image": "../assets/barcelona.jpg",
       "destination": "Barcelona, Spain",
       "price": "$800",
-      "description": "All inclusive flight+hotel"
+      "description": "All inclusive flight+hotel",
+      "continent": "Europe"
     },
     {
       "image": "../assets/rome.jpg",
       "destination": "Rome, Italy",
       "price": "$600",
-      "description": "All inclusive flight+hotel"
+      "description": "All inclusive flight+hotel",
+      "continent": "Europe"
     },
     {
       "image": "../assets/cancun.jpg",
       "destination": "Cancun, Mexico",
       "price": "$1400",
-      "description": "All inclusive flight+hotel"
+      "description": "All inclusive flight+hotel",
+      "continent": "America"
     },
     {
       "image": "../assets/mykonos.jpg",
       "destination": "Mykonos, Greece",
       "price": "$1500",
-      "description": "All inclusive flight+hotel"
+      "description": "All inclusive flight+hotel",
+      "continent": "Europe"
     },
     {
       "image": "../assets/riodej.jpg",
       "destination": "Rio de Janeiro, Brazil",
       "price": "$1100",
-      "description": "All inclusive flight+hotel"
+      "description": "All inclusive flight+hotel",
+      "continent": "America"
     },
     {
       "image": "../assets/chile.jpg",
       "destination": "Santiago, Chile",
       "price": "$900",
-      "description": "All inclusive flight+hotel"
+      "description": "All inclusive flight+hotel",
+      "continent": "America"
     },
     {
       "image": "../assets/korea.jpg",
       "destination": "Seoul, South Korea",
       "price": "$2000",
-      "description": "All inclusive flight+hotel"
+      "description": "All inclusive flight+hotel",
+      "continent": "Europe"
     },
     {
       "image": "../assets/miami.jpg",
       "destination": "Miami, Florida",
       "price": "$500",
-      "description": "All inclusive flight+hotel"
+      "description": "All inclusive flight+hotel",
+      "continent": "America"
     },
     {
       "image": "../assets/tokyo.jpeg",
       "destination": "Tokyo, Japan",
       "price": "$3000",
-      "description": "All inclusive flight+hotel"
+      "description": "All inclusive flight+hotel",
+      "continent": "Asia"
     },
     {
       "image": "../assets/bali.jpg",
       "destination": "Bali, Indonesia",
       "price": "$2100",
-      "description": "All inclusive flight+hotel"
+      "description": "All inclusive flight+hotel",
+      "continent": "Asia"
     },
     {
       "image": "../assets/australia.jpg",
       "destination": "Sydney, Australia",
       "price": "$2600",
-      "description": "All inclusive flight+hotel"
+      "description": "All inclusive flight+hotel",
+      "continent": "Asia"
     }
   ]
 }
