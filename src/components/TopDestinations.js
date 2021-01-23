@@ -10,19 +10,19 @@ class TopDestinations extends React.Component {
 
           <div class="child">
             <div class="box">
-              <img class="img" src="../assets/paris1.jpg" alt="house" />
+              <img class="img" src="../assets/parisnight.jpg" alt="house" />
               <h4>Paris, France</h4>
               <h4 className="h4">Learn More</h4>
             </div>
 
             <div class="box">
-              <img class="img" src="../assets/nahyah.jpg" alt="house" />
+              <img class="img" src="../assets/nycnighttime.jpg" alt="house" />
               <h4>New York City, US</h4>
               <h4 className="h4">Learn More</h4>
             </div>
 
             <div class="box">
-              <img class="img" src="../assets/japan1.jpg" alt="house" />
+              <img class="img" src="../assets/japannight.jpg" alt="house" />
               <h4>Kyoto, Japan</h4>
               <h4 className="h4">Learn More</h4>
             </div>

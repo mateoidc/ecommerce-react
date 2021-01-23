@@ -5,6 +5,12 @@ class Form extends React.Component {
   render() {
     return (
       <div className="App" id="Form">
+        <div className="dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
         <form>
           <h5 class="form">Get in Touch!</h5>
           <input

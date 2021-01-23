@@ -22,23 +22,23 @@
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 40px;
+  font-size: 50px;
   color: #2c1a4e;
   margin: 30px;
 }
 h4 {
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  color: #2c1a4e;
+  font-size: 40px;
+  color: #2d2242;
   margin: 10px;
 }
 
 .h4 {
-  font-size: 20px;
+  font-size: 30px;
   background: linear-gradient(
       127deg,
       rgba(87, 234, 109, 0.689),
-      rgba(0, 0, 255, 0) 70.71%
+      rgba(0, 0, 255, 0.333) 70.71%
     ),
     linear-gradient(
       336deg,
@@ -86,4 +86,8 @@ img:hover {
   .img {
     width: 350px;
   }
+}
+
+.child {
+  margin: 100px auto;
 }

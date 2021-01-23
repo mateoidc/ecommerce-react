@@ -29,10 +29,14 @@ form {
   margin: 50px auto;
   background: linear-gradient(
       127deg,
-      rgba(95, 222, 139, 0.579),
-      rgba(0, 0, 255, 0) 70.71%
+      rgba(87, 234, 109, 0.689),
+      rgba(0, 0, 255, 0.333) 70.71%
     ),
-    linear-gradient(336deg, rgba(71, 3, 76, 0.476), rgba(0, 0, 255, 0) 70.71%);
+    linear-gradient(
+      336deg,
+      rgba(183, 88, 190, 0.476),
+      rgba(0, 0, 255, 0) 70.71%
+    );
   padding: 30px;
   border-radius: 70px;
 }
@@ -50,7 +54,16 @@ textarea {
 [type="submit"] {
   font-family: "Montserrat", sans-serif;
   width: 100%;
-  background-color: rgba(61, 43, 67, 0.285);
+  background: linear-gradient(
+      127deg,
+      rgba(87, 234, 109, 0.689),
+      rgba(0, 0, 255, 0.333) 70.71%
+    ),
+    linear-gradient(
+      336deg,
+      rgba(183, 88, 190, 0.476),
+      rgba(0, 0, 255, 0) 70.71%
+    );
   border-radius: 5px;
   border: 0;
   cursor: pointer;
@@ -64,5 +77,32 @@ textarea {
   border-radius: 70px;
 }
 [type="submit"]:hover {
-  background-color: rgba(61, 43, 67, 0.024);
+  background: linear-gradient(
+      127deg,
+      rgba(87, 234, 109, 0.518),
+      rgba(0, 0, 255, 0.397) 70.71%
+    ),
+    linear-gradient(
+      336deg,
+      rgba(183, 88, 190, 0.476),
+      rgba(0, 0, 255, 0) 70.71%
+    );
+}
+.dot {
+  height: 50px;
+  width: 50px;
+  background: linear-gradient(
+      127deg,
+      rgba(87, 234, 109, 0.689),
+      rgba(0, 0, 255, 0.333) 70.71%
+    ),
+    linear-gradient(
+      336deg,
+      rgba(183, 88, 190, 0.476),
+      rgba(0, 0, 255, 0) 70.71%
+    );
+  border-radius: 50%;
+  display: flex;
+  margin: 40px auto;
+  justify-content: center;
 }

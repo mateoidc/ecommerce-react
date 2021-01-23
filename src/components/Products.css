@@ -7,10 +7,14 @@ img {
 .container1 {
   background: linear-gradient(
       127deg,
-      rgb(42, 244, 113),
-      rgba(0, 0, 255, 0) 70.71%
+      rgba(87, 234, 109, 0.689),
+      rgba(0, 0, 255, 0.333)
     ),
-    linear-gradient(336deg, rgba(71, 3, 76, 0.476), rgba(0, 0, 255, 0) 70.71%);
+    linear-gradient(
+      336deg,
+      rgba(183, 88, 190, 0.476),
+      rgba(0, 0, 255, 0) 70.71%
+    );
   text-align: center;
   font-family: "Montserrat", sans-serif;
   margin: 15px;
@@ -28,7 +32,16 @@ img {
 }
 
 .button {
-  background-color: rgba(61, 43, 67, 0.285);
+  background: linear-gradient(
+      127deg,
+      rgba(87, 234, 109, 0.689),
+      rgba(0, 0, 255, 0.333) 70.71%
+    ),
+    linear-gradient(
+      336deg,
+      rgba(183, 88, 190, 0.476),
+      rgba(0, 0, 255, 0) 70.71%
+    );
   font-size: 24px;
   border-radius: 30px;
   padding: 3px;
@@ -41,10 +54,14 @@ img {
   font-size: 10px;
   background: linear-gradient(
       127deg,
-      rgba(95, 222, 139, 0.579),
-      rgba(0, 0, 255, 0) 70.71%
+      rgba(87, 234, 109, 0.689),
+      rgba(0, 0, 255, 0.333) 70.71%
     ),
-    linear-gradient(336deg, rgba(71, 3, 76, 0.476), rgba(0, 0, 255, 0) 70.71%);
+    linear-gradient(
+      336deg,
+      rgba(183, 88, 190, 0.476),
+      rgba(0, 0, 255, 0) 70.71%
+    );
   padding: 10px;
   border-radius: 70px;
   transition: 0.4 ease;
@@ -52,6 +69,19 @@ img {
   border: 0;
   margin: 10px;
   width: 15%;
+}
+
+.filter-button:hover {
+  background: linear-gradient(
+      127deg,
+      rgba(87, 234, 109, 0.244),
+      rgba(0, 0, 255, 0.596) 70.71%
+    ),
+    linear-gradient(
+      336deg,
+      rgba(183, 88, 190, 0.476),
+      rgba(0, 0, 255, 0) 70.71%
+    );
 }
 
 .filter-container {
