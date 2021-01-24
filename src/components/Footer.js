@@ -58,6 +58,9 @@ class Footer extends React.Component {
                     Contact
                   </Link>
                 </div>
+                <h6 className="socialmedia">Instagram</h6>
+                <h6 className="socialmedia">Twitter</h6>
+                <h6 className="socialmedia">Facebook</h6>
               </div>
             </div>
           </div>

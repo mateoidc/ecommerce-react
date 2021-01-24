@@ -35,7 +35,7 @@
     {
       "image": "../assets/mykonos.jpg",
       "country": "Greece",
-      "city": "Mykonos,",
+      "city": "Mykonos",
       "price": 1500,
       "description": "All inclusive flight+hotel",
       "continent": "Europe"
