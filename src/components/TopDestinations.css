@@ -6,7 +6,16 @@
 }
 
 .container {
-  background-color: white;
+  background: linear-gradient(
+      127deg,
+      rgba(87, 234, 109, 0.387),
+      rgba(0, 0, 255, 0.333) 70.71%
+    ),
+    linear-gradient(
+      336deg,
+      rgba(183, 88, 190, 0.476),
+      rgba(0, 0, 255, 0) 70.71%
+    );
   text-align: center;
   padding: 20px;
 }
@@ -23,13 +32,13 @@
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 50px;
-  color: #2c1a4e;
+  color: white;
   margin: 30px;
 }
 h4 {
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
-  color: #2d2242;
+  color: white;
   margin: 10px;
 }
 

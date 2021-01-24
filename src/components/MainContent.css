@@ -1,20 +1,24 @@
 .hero2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.552)),
-    url("https://images.pexels.com/photos/1819651/pexels-photo-1819651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: rgb(86, 90, 115);
   font-family: "Montserrat", sans-serif;
   text-align: center;
   font-size: 70px;
   position: relative;
-
-  text-shadow: 6px 6px rgba(224, 140, 229, 0.274);
 }
 
 .idk {
-  background-color: rgba(0, 0, 0, 0.449);
+  background: linear-gradient(
+      127deg,
+      rgba(87, 234, 109, 0.689),
+      rgba(0, 0, 255, 0.333) 70.71%
+    ),
+    linear-gradient(
+      336deg,
+      rgba(183, 88, 190, 0.476),
+      rgba(0, 0, 255, 0) 70.71%
+    );
   display: inline-block;
   padding: 40px;
   margin: 20px;
