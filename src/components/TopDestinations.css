@@ -100,3 +100,10 @@ img:hover {
 .child {
   margin: 100px auto;
 }
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    position: relative;
+    left: -10px;
+  }
+}
