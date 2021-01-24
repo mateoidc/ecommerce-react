@@ -106,3 +106,9 @@ textarea {
   margin: 40px auto;
   justify-content: center;
 }
+
+@media only screen and (max-width: 600px) {
+  form {
+    width: 75%;
+  }
+}
