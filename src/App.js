@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavBar from "./components/NavBar/NavBar";
 import TopDestinations from "./components/TopDestinations/TopDestinations";
-import Products from "./components/Products";
+import Products from "./components/Products/Products";
 import MainContent from "./components/MainContent/MainContent";
 import Form from "./components/Form/Form";
 import Footer from "./components/Footer/Footer";

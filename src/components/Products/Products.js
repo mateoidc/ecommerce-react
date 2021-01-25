@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import data from "../products.json";
-import "../components/Products.css";
+import data from "../../products.json";
+import "../Products/Products.css";
 
 // Creating constructor to render fresh new set of data whenever the state is mutated
 

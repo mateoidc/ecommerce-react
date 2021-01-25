@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import "../TopDestinations/TopDestinations.css";
 
 class TopDestinations extends React.Component {

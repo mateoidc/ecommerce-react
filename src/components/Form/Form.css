@@ -112,3 +112,11 @@ textarea {
     width: 75%;
   }
 }
+
+.span1 {
+  color: rgb(77, 92, 84);
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+}
