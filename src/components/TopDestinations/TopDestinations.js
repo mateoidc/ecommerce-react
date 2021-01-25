@@ -11,7 +11,7 @@ class TopDestinations extends React.Component {
           <div class="child">
             <div class="box">
               <img class="img" src="../assets/parisnight.jpg" alt="house" />
-              <h4>Paris, France</h4>
+              <h4>Pariz, France</h4>
               <h4 className="h4">Learn More</h4>
             </div>
 
