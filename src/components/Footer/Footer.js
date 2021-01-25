@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../components/Footer.css";
+import "../Footer/Footer.css";
 import { Link } from "react-scroll";
 
 class Footer extends React.Component {

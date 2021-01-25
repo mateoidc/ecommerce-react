@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../components/TopDestinations.css";
+import "../TopDestinations/TopDestinations.css";
 
 class TopDestinations extends React.Component {
   render() {

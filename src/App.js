@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import NavBar from "./components/NavBar";
-import TopDestinations from "./components/TopDestinations";
+import NavBar from "./components/NavBar/NavBar";
+import TopDestinations from "./components/TopDestinations/TopDestinations";
 import Products from "./components/Products";
-import MainContent from "./components/MainContent";
-import Form from "./components/Form";
-import Footer from "./components/Footer";
+import MainContent from "./components/MainContent/MainContent";
+import Form from "./components/Form/Form";
+import Footer from "./components/Footer/Footer";
 
 import { Link } from "react-scroll";
 

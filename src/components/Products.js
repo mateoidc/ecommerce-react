@@ -63,7 +63,7 @@ class Products extends Component {
           </button>
 
           <button onClick={this.descPriceHandler} className="filter-button">
-            Filter by (Lowest to Highest)
+            Filter by (Highest to Lowest)
           </button>
         </div>
         <div className="products-container" id="Products">
